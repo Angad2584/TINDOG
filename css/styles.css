@@ -1,0 +1,202 @@
+/* GENERAL BODY */
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+/* SECTIONS */
+.coloured-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+/* HOME PAGE - START */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* NAV BAR */
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 1.5rem;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+/* DOWNLOAD BUTTONS */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* CONTAINERS */
+
+.container-fluid{
+  padding: 7% 15% ;
+}
+
+/* TITLE IMAGE */
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right:30%;
+}
+
+.positioning{
+  position: relative;
+}
+
+/* HOME PAGE- END */
+
+/* FEATURES SECTION - START*/
+
+#features{
+  line-height: 2rem;
+
+  background-color:#fff;
+  position: relative;
+}
+
+.feature-title{
+  font-size:1.5rem;
+}
+
+.feature-heading{
+  font-size:  1.5rem;
+}
+
+.feature-image:hover{
+  color: #ff4c68;
+}
+
+.feature-image{
+  color:#ef8172;
+  margin-bottom: 2rem;
+}
+
+/* FEATURES SECTION - END */
+
+/* TESTIMONIAL SECTION - START*/
+
+#testimonials{
+  background-color: #ef8172;
+
+}
+
+#press{
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+.press-logo{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height:1.5;
+}
+/* TESTIMONIAL SECTION END */
+
+/* PRICING SECTION START */
+#pricing{
+  padding: 100px;
+}
+
+.section-heading{
+  font-size:3rem;
+  line-height: 1.5;
+}
+
+.pricing-coloumn {
+  padding: 3% 2%;
+}
+
+.card{
+  height: 100%;
+}
+
+.card-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* PRICING SECTION END */
+
+
+
+/* SOCIAL */
+#footer{
+  background-color:#fff;
+}
+
+.social-icon{
+  margin: 20px 10px;
+  color: #1a1c20;
+}
+
+
+
+.personal-website{
+  text-decoration: underline;
+  color: #1a1c20;
+}
+
+.personal-website:hover, .social-icon:hover{
+  color: #8f8f8f;
+}
+
+/* TEXTS */
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* MEDIA BREAKPOINTS */
+
+@media (max-width:1028px){
+
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+
+  }
+}
